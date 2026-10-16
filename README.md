@@ -6,7 +6,7 @@ Proyecto 02 – Desarrollo de Aplicaciones Web y Móviles (SOFG1006), ESPOL.
 **Integrantes:** Israel Santiago Romero Pazmiño, Joan Sebastián Mendoza Rendón
 
 ## Sitio publicado
-[Aquí va el enlace del sitio]
+[Enlace del sitio]
 
 ## Descripción
 Sitio informativo con la historia, actividades, arte y cultura del parque,
