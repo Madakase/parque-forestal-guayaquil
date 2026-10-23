@@ -1,0 +1,4 @@
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+#banner-wrapper { background: url("../../images/lagunaBiodiversidad.png") center / cover no-repeat; }
