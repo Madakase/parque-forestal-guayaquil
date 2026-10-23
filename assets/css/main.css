@@ -2735,3 +2735,22 @@ input, select, textarea {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+#features-wrapper .row {
+    display: flex;
+    align-items: stretch; /* Estira todas las columnas para que midan lo mismo */
+}
+
+#features-wrapper .box.feature {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#features-wrapper .box.feature .inner {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
