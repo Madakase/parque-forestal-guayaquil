@@ -21,3 +21,7 @@ html { scroll-behavior: smooth; }
 	#nav ul li { float: none; padding-left: 0; margin-right: 0.5em; line-height: 3.5em; }
 	#nav ul li a { white-space: nowrap; padding: 0.5em 0.9em; }
 }
+
+.tabla { overflow-x: auto; margin-bottom: 2em; }
+.tabla table { margin-bottom: 0; }
+article iframe { display: block; width: 100%; border: 0; border-radius: 8px; }
