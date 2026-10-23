@@ -27,27 +27,25 @@
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a href="index.html">Welcome</a></li>
-									<li>
-										<a href="#">Dropdown</a>
+									<li class="current"><a href="index.html">Inicio</a></li>
+									<li><a href="index.html#features-wrapper">Conoce el parque</a></li>
+									<li><a href="index.html#historia">Historia</a></li>
+									<li><a href="actividades.html">Actividades</a>
 										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li class="current"><a href="no-sidebar.html">No Sidebar</a></li>
+											<li><a href="actividades.html#juegos">Juegos infantiles</a></li>
+											<li><a href="actividades.html#fauna">Observación de fauna</a></li>
+											<li><a href="actividades.html#picnic">Picnic y caminatas</a></li>
+											<li><a href="actividades.html#feria">Feria de emprendedores</a></li>
+										</ul></li>
+									<li><a href="arte-cultura.html">Arte y cultura</a></li>
+									<li><a href="planifica-tu-visita.html">Planifica tu visita</a></li>
+									<li><a href="resultados.html">Resultados</a>
+										<ul>
+											<li><a href="resultados.html#cifras">El parque en cifras</a></li>
+											<li><a href="resultados.html#voces">Voces de los visitantes</a></li>
+											<li><a href="resultados.html#estado">Estado y propuestas</a></li>
+										</ul></li>
+									<li><a href="index.html#gallery-wrapper">Galería</a></li>
 								</ul>
 							</nav>
 
@@ -62,29 +60,75 @@
 							<!-- Content -->
 								<article>
 
-									<h2>No Sidebar</h2>
+									<section id="cifras">
+										<h2>El parque en cifras</h2>
+										<p>Resultados de entrevistas a cinco visitantes del parque.</p>
 
-									<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-									Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-									Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-									consequat etiam lorem ipsum dolor sit amet nullam.</p>
+										<h3>¿Con qué frecuencia visita el parque?</h3>
+										<div class="tabla">
+											<table>
+												<thead><tr><th>Respuesta</th><th>Respuestas</th></tr></thead>
+												<tbody>
+													<tr><td>Primera vez</td><td><progress value="1" max="5"></progress> 1 de 5</td></tr>
+													<tr><td>Ocasionalmente</td><td><progress value="2" max="5"></progress> 2 de 5</td></tr>
+													<tr><td>Mensualmente</td><td><progress value="1" max="5"></progress> 1 de 5</td></tr>
+													<tr><td>Semanalmente</td><td><progress value="1" max="5"></progress> 1 de 5</td></tr>
+												</tbody>
+											</table>
+										</div>
 
-									<h3>More intriguing information</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-									justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-									ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-									vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-									Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-									rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-									Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-									Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
+										<h3>¿Considera que las instalaciones están en buen estado?</h3>
+										<div class="tabla">
+											<table>
+												<thead><tr><th>Respuesta</th><th>Respuestas</th></tr></thead>
+												<tbody>
+													<tr><td>Sí</td><td><progress value="4" max="5"></progress> 4 de 5</td></tr>
+													<tr><td>Parcialmente</td><td><progress value="1" max="5"></progress> 1 de 5</td></tr>
+													<tr><td>No</td><td><progress value="0" max="5"></progress> 0 de 5</td></tr>
+												</tbody>
+											</table>
+										</div>
 
-									<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-									quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-									Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-									fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-									Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-									Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
+										<h3>¿Considera que el parque es un lugar seguro?</h3>
+										<div class="tabla">
+											<table>
+												<thead><tr><th>Respuesta</th><th>Respuestas</th></tr></thead>
+												<tbody>
+													<tr><td>Sí</td><td><progress value="5" max="5"></progress> 5 de 5</td></tr>
+													<tr><td>Parcialmente</td><td><progress value="0" max="5"></progress> 0 de 5</td></tr>
+													<tr><td>No</td><td><progress value="0" max="5"></progress> 0 de 5</td></tr>
+												</tbody>
+											</table>
+										</div>
+
+										<h3>¿Recomendaría el parque?</h3>
+										<div class="tabla">
+											<table>
+												<thead><tr><th>¿Recomendaría el parque?</th><th>Respuestas</th></tr></thead>
+												<tbody>
+													<tr><td>Sí</td><td><progress value="5" max="5"></progress> 5 de 5</td></tr>
+													<tr><td>Parcialmente</td><td><progress value="0" max="5"></progress> 0 de 5</td></tr>
+													<tr><td>No</td><td><progress value="0" max="5"></progress> 0 de 5</td></tr>
+												</tbody>
+											</table>
+										</div>
+
+										<h3>¿Cómo calificariía su experiencia general durante su visita al parque?</h3>
+										<div class="tabla">
+											<table>
+												<thead><tr><th>Respuesta</th><th>Respuestas</th></tr></thead>
+												<tbody>
+													<tr><td>Muy buena</td><td><progress value="4" max="5"></progress> 4 de 5</td></tr>
+													<tr><td>Buena</td><td><progress value="1" max="5"></progress> 1 de 5</td></tr>
+													<tr><td>Regular</td><td><progress value="0" max="5"></progress> 0 de 5</td></tr>
+													<tr><td>Mala</td><td><progress value="0" max="5"></progress> 0 de 5</td></tr>
+
+												</tbody>
+											</table>
+										</div>
+									</section>
+
+									<!-- Seccion de experiencias -->
 
 								</article>
 
