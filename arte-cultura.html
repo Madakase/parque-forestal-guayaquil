@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 	</head>
 	<body class="is-preload right-sidebar">
 		<div id="page-wrapper">
@@ -26,27 +27,25 @@
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a href="index.html">Welcome</a></li>
-									<li>
-										<a href="#">Dropdown</a>
+									<li class="current"><a href="index.html">Inicio</a></li>
+									<li><a href="index.html#features-wrapper">Conoce el parque</a></li>
+									<li><a href="index.html#historia">Historia</a></li>
+									<li><a href="actividades.html">Actividades</a>
 										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li class="current"><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
+											<li><a href="actividades.html#juegos">Juegos infantiles</a></li>
+											<li><a href="actividades.html#fauna">Observación de fauna</a></li>
+											<li><a href="actividades.html#picnic">Picnic y caminatas</a></li>
+											<li><a href="actividades.html#feria">Feria de emprendedores</a></li>
+										</ul></li>
+									<li><a href="arte-cultura.html">Arte y cultura</a></li>
+									<li><a href="planifica-tu-visita.html">Planifica tu visita</a></li>
+									<li><a href="resultados.html">Resultados</a>
+										<ul>
+											<li><a href="resultados.html#cifras">El parque en cifras</a></li>
+											<li><a href="resultados.html#voces">Voces de los visitantes</a></li>
+											<li><a href="resultados.html#estado">Estado y propuestas</a></li>
+										</ul></li>
+									<li><a href="index.html#gallery-wrapper">Galería</a></li>
 								</ul>
 							</nav>
 
@@ -67,9 +66,31 @@
 
 											<h3>Arte al aire libre</h3>
 											<p>«La Patria Joven», de Oswaldo Guayasamín; réplica de la «Venus Tropical»; esculturas de caballos en la pileta y bustos de personajes históricos.</p>
+											<section class="detalle-patrimonial">
+												<h3>Detalles del patrimonio</h3>
+												<p>«La Patria Joven», de Oswaldo Guayasamín, está elaborada en bronce. Cerca de ella se encuentra una columna en homenaje a los Próceres de la Independencia, con nombres de participantes en la gesta del 9 de octubre de 1820.</p>
+												<p>La réplica de la «Venus Tropical» corresponde a una obra del escultor lojano Evelio Tandazo Vivanco. Las esculturas de caballos de la pileta central recuerdan el pasado ecuestre del terreno, que fue sede del antiguo hipódromo de Guayaquil.</p>
+												<p>Entre los personajes representados en bustos se encuentran Luis Vernaza, Alfredo Valenzuela, Aurelio Carrera Calvo, Emilio Estrada Icaza, Alberto Guerrero Martínez, Leopoldo Izquieta Pérez, Enrique Baquerizo Moreno y Francisco Icaza Bustamante.</p>
+												<p>El Teatro Centro Cívico Eloy Alfaro fue inaugurado en 1970 y complementa la oferta artística del parque con un espacio para las artes escénicas, conciertos y actos cívicos.</p>
+												<p>Fuente: <a href="https://www.eldiario.ec/guayaquil/esculturas-bustos-y-naturaleza-el-legado-historico-del-parque-forestal-de-guayaquil-09102025/" target="_blank" rel="noopener">«Esculturas, bustos y naturaleza: el legado histórico del Parque Forestal de Guayaquil», El Diario (2025)</a>.</p>
+											</section>
 
 											<h3>Teatro Centro Cívico Eloy Alfaro</h3>
 											<p>Sede de la Orquesta Sinfónica de Guayaquil, con capacidad para 1.522 personas.</p>
+
+											<figure style="max-width:760px; margin:1rem auto;">
+													<img
+														src="images/teatroCivico.png"
+														alt="Teatro Centro Cívico"
+														loading="lazy"
+														style="display:block; width:100%; aspect-ratio:16 / 9;
+															object-fit:cover; border-radius:12px;"
+													>
+													<figcaption style="text-align:center; font-size:0.9rem;
+																	color:#666; margin-top:0.4rem;">
+														Teatro Centro Civico.
+													</figcaption>
+												</figure>
 
 										</article>
 								</div>
@@ -86,18 +107,6 @@
 											</footer>
 										</section>
 
-										<section>
-											<h3>Subheading</h3>
-											<ul class="style2">
-												<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-												<li><a href="#">Ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quis eget mi dolore</a></li>
-												<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-												<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quisturpis nisi</a></li>
-											</ul>
-										</section>
-
 								</div>
 							</div>
 						</div>
@@ -112,13 +121,11 @@
 
 								<!-- Links -->
 									<section class="widget links">
-										<h3>Random Stuff</h3>
+										<h3>Enlaces de Interés</h3>
 										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
+											<li><a href="https://www.culturaypatrimonio.gob.ec/orquesta-sinfonica-de-guayaquil-continua-celebrando-a-la-cultura/" target="_blank">Orquesta Sinfónica de Guayaquil</a></li>
+											<li><a href="https://www.eldiario.ec/guayaquil/esculturas-bustos-y-naturaleza-el-legado-historico-del-parque-forestal-de-guayaquil-09102025/" target="_blank">Legado histórico (El Diario)</a></li>
+											<li><a href="https://www.eltelegrafo.com.ec/noticias/ecuador/220/estado-parqueforestal-ministeriodecultura" target="_blank">Regeneración urbana (El Telégrafo)</a></li>
 										</ul>
 									</section>
 
@@ -127,13 +134,12 @@
 
 								<!-- Links -->
 									<section class="widget links">
-										<h3>Random Stuff</h3>
+										<h3>Actividades Clave</h3>
 										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
+											<li><a href="actividades.html#fauna">Observación de aves y fauna</a></li>
+											<li><a href="actividades.html#picnic">Paseos familiares y pícnic</a></li>
+											<li><a href="actividades.html#feria">Ferias de emprendimiento</a></li>
+											<li><a href="actividades.html#juegos">Recreación infantil</a></li>
 										</ul>
 									</section>
 
@@ -142,13 +148,10 @@
 
 								<!-- Links -->
 									<section class="widget links">
-										<h3>Random Stuff</h3>
+										<h3>Documentación</h3>
 										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
+											<li><a href="https://drive.google.com/file/d/1EBYKV9MV5P-700V6gTw7AdXbWXUujnQy/view?usp=sharing" target="_blank">Plantilla de Entrevistas</a></li>
+											<li><a href="https://github.com/Madakase/parque-forestal-guayaquil" target="_blank">Repositorio en GitHub</a></li>
 										</ul>
 									</section>
 
@@ -156,18 +159,15 @@
 							<div class="col-3 col-6-medium col-12-small">
 
 								<!-- Contact -->
-									<section class="widget contact">
-										<h3>Contact Us</h3>
+									<section class="widget contact last">
+										<h3>Créditos del Proyecto</h3>
 										<ul>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+											<li><a href="https://github.com/Madakase/parque-forestal-guayaquil" target="_blank" rel="noopener" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 										</ul>
-										<p>1234 Fictional Road<br />
-										Nashville, TN 00000<br />
-										(800) 555-0000</p>
+										<p>ESPOL - FIEC<br />
+										Desarrollo de Aplicaciones Web y Móviles<br />
+										Israel Romero &amp; Joan Mendoza</p>
+										<p><a href="creditos.html">Créditos, consentimiento y fuentes</a></p>
 									</section>
 
 							</div>
@@ -176,14 +176,13 @@
 							<div class="col-12">
 								<div id="copyright">
 									<ul class="menu">
-										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										<li>&copy; Parque Forestal Guayaquil. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 					</footer>
 				</div>
-
 			</div>
 
 		<!-- Scripts -->
