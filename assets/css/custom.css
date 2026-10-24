@@ -43,3 +43,5 @@ progress { width: 60%; height: 0.9em; vertical-align: middle; accent-color: #2d6
 .lightbox img { max-width: 90vw; max-height: 80vh; border-radius: 8px; }
 .lightbox figcaption { padding-top: 1em; font-size: .8em; line-height: 1.5em; }
 .lightbox .cerrar { position: absolute; top: 1rem; right: 1.5rem; color: #fff; font-size: 2rem; text-decoration: none; }
+
+.referencias p { padding-left: 2em; text-indent: -2em; }
