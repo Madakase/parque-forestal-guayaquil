@@ -4,12 +4,13 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="es">
 	<head>
 		<title>Parque Forestal | Guayaquil</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 	</head>
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
@@ -27,21 +28,26 @@
 							<nav id="nav">
 								<ul>
 									<li class="current"><a href="index.html">Inicio</a></li>
-									<li><a href="#features-wrapper">Conoce el parque</a></li>
-									<li><a href="#main-wrapper">Historia</a></li>
-									<li>
-										<a href="#">Actividades</a>
+									<li><a href="index.html#features-wrapper">Conoce el parque</a></li>
+									<li><a href="index.html#historia">Historia</a></li>
+									<li><a href="actividades.html">Actividades</a>
 										<ul>
-											<li><a href="#">Juegos infantiles</a></li>
-											<li><a href="#">Observación de fauna</a></li>
-											<li><a href="#">Picnic y caminatas</a></li>
-											<li><a href="#">Feria de emprendedores</a></li>
-										</ul>
-									</li>
-									<li><a href="#sidebar">Galería</a></li>
+											<li><a href="actividades.html#juegos">Juegos infantiles</a></li>
+											<li><a href="actividades.html#fauna">Observación de fauna</a></li>
+											<li><a href="actividades.html#picnic">Picnic y caminatas</a></li>
+											<li><a href="actividades.html#feria">Feria de emprendedores</a></li>
+										</ul></li>
+									<li><a href="arte-cultura.html">Arte y cultura</a></li>
+									<li><a href="planifica-tu-visita.html">Planifica tu visita</a></li>
+									<li><a href="resultados.html">Resultados</a>
+										<ul>
+											<li><a href="resultados.html#cifras">El parque en cifras</a></li>
+											<li><a href="resultados.html#voces">Voces de los visitantes</a></li>
+											<li><a href="resultados.html#estado">Estado y propuestas</a></li>
+										</ul></li>
+									<li><a href="index.html#gallery-wrapper">Galería</a></li>
 								</ul>
 							</nav>
-
 					</header>
 				</div>
 
@@ -50,18 +56,24 @@
 					<div id="banner" class="box container">
 						<div class="row">
 							<div class="col-7 col-12-medium">
-								<h2>Parque Forestal: Juega y Descubre</h2>
-								<p>Uno de los sitios recreativo más importante del sur de Guayaquil.</p>
+								<h2>Parque Forestal: respira, juega y descubre</h2>
+								<p>Uno de los espacios recreativos más importantes del sur de Guayaquil.</p>
 							</div>
 							<div class="col-5 col-12-medium">
 								<ul>
-									<li><a href="#footer-wrapper" class="button large icon solid fa-arrow-circle-right">Planifica tu visita</a></li>
-									<li><a href="#main-wrapper" class="button alt large icon solid fa-question-circle">Conoce más</a></li>
+									<li><a href="planifica-tu-visita.html" class="button large icon solid fa-arrow-circle-right">Planifica tu visita</a></li>
+									<li><a href="resultados.html#voces" class="button alt large icon solid fa-comments">Voces de los visitantes</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<div id="cifras-wrapper"><div class="container"><div class="row">
+					<div class="col-4 col-12-small"><section class="box"><h2>10 ha</h2><p>de extensión</p></section></div>
+					<div class="col-4 col-12-small"><section class="box"><h2>450 m</h2><p>de laguna</p></section></div>
+					<div class="col-4 col-12-small"><section class="box"><h2>1968</h2><p>año de inauguración</p></section></div>
+				</div></div></div>
 
 			<!-- Features -->
 				<div id="features-wrapper">
@@ -71,28 +83,33 @@
 
 								<!-- Box -->
 									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/lagunaBiodiversidad.png" alt="Laguna y Biodiversidad" /></a>
+										<a href="actividades.html#fauna" class="image featured"><img src="images/lagunaBiodiversidad.png" alt="Laguna y Biodiversidad" /></a>
 										<div class="inner">
 											<header>
 												<h2>Laguna y Biodiversidad</h2>
 												<p>Naturaleza viva en el sur de la ciudad</p>
 											</header>
 											<p>Una laguna de 450 metros donde habitan garzas, patos silvestres, tortugas, peces e iguanas, ideal para conectar con el entorno.</p>
+											<footer>
+												<a href="actividades.html#fauna" class="button icon solid fa-arrow-circle-right">Ver fauna</a>
+											</footer>
 										</div>
 									</section>
-
 							</div>
 							<div class="col-4 col-12-medium">
 
 								<!-- Box -->
 									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/espaciosRecreativos.png" alt="Áreas Infantiles y Recreación" /></a>
+										<a href="actividades.html" class="image featured"><img src="images/espaciosRecreativos.png" alt="Áreas Infantiles y Recreación" /></a>
 										<div class="inner">
 											<header>
 												<h2>Espacios Recreativos</h2>
 												<p>Diversión para toda la familia</p>
 											</header>
-											<p>Espacios diseñados para el sano esparcimiento, con 10 hectáreas totales de extensión que incluyen áreas verdes, juegos infantiles y zonas de pícnic.</p>
+											<p>Espacios diseñados para el sano esparcimiento. De sus 10 hectáreas, nueve corresponden a áreas verdes, juegos infantiles y laguna.</p>
+											<footer>
+												<a href="actividades.html" class="button icon solid fa-arrow-circle-right">Ver actividades</a>
+											</footer>
 										</div>
 									</section>
 
@@ -101,16 +118,18 @@
 
 								<!-- Box -->
 									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/culturaFeria.png" alt="Arte, Cultura y Ferias" /></a>
+										<a href="arte-cultura.html" class="image featured"><img src="images/culturaFeria.png" alt="Arte, Cultura y Ferias" /></a>
 										<div class="inner">
 											<header>
 												<h2>Cultura y Ferias</h2>
 												<p>Tradición y comunidad</p>
 											</header>
-											<p>Punto de encuentro para ferias de emprendimiento, arte urbano y cercanía con el Teatro Centro Cívico, promoviendo la cultura local.</p>
+											<p>Punto de encuentro para ferias de emprendimiento, con obras de arte al aire libre y cercanía con el Teatro Centro Cívico Eloy Alfaro, que promueve la cultura local.</p>
+											<footer>
+												<a href="arte-cultura.html" class="button icon solid fa-arrow-circle-right">Ver arte y cultura</a>
+											</footer>
 										</div>
 									</section>
-
 							</div>
 						</div>
 					</div>
@@ -119,24 +138,41 @@
 			<!-- Main: Historia y Patrimonio -->
 				<div id="main-wrapper">
 					<div class="container">
-						<div class="row">
-							<div class="col-12">
-								<!-- Content -->
-									<div id="content">
-										<section class="last">
+						<div class="row gtr-200">
+							<div class="col-4 col-12-medium">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+										<section>
+											<h3>Línea de tiempo</h3>
+											<ul class="style2">
+												<li>Años 60: el antiguo hipódromo se rediseña como pulmón verde</li>
+												<li>1968: inauguración del parque</li>
+												<li>2018–2019: muelle, juegos, puentes, pasarelas, baños y riego ($650.000)</li>
+											</ul>
+										</section>
+								</div>
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+								<div id="content">
+
+									<!-- Content -->
+										<section id="historia" class="last">
 											<h2>Historia y Patrimonio</h2>
 											<p>El terreno del <strong>Parque Forestal</strong> fue en su origen la sede del antiguo hipódromo de la ciudad. En la década de 1960 fue completamente rediseñado con el propósito fundamental de crear un pulmón verde para Guayaquil.</p>
 											<p>Entre los años 2018 y 2019 se ejecutaron importantes obras de regeneración que incluyeron la construcción de un muelle, juegos infantiles, puentes, pasarelas, baterías sanitarias y un sistema de riego renovado, consolidándose como un espacio vital para el encuentro ciudadano, la recreación y el disfrute familiar en el sur de la urbe.</p>
-											<a href="#" class="button icon solid fa-arrow-circle-right">Voces de los visitantes</a>
+											<footer>
+												<a href="resultados.html#voces" class="button icon solid fa-comments">Voces de los visitantes</a>
+											</footer>
 										</section>
-									</div>
+
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-			<!-- Gallery Section (Debajo de Historia) -->
-				<div id="gallery-wrapper" style="background: #f4f6f4; padding: 4em 0;">
+				<div id="gallery-wrapper">
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
@@ -144,16 +180,46 @@
 									<h2>Galería del Parque</h2>
 									<div class="grid">
 										<div class="row gtr-50">
-											<div class="col-3 col-6-medium"><a href="#" class="image fit"><img src="images/galeriaOne.png" alt="Vista del parque" /></a></div>
-											<div class="col-3 col-6-medium"><a href="#" class="image fit"><img src="images/galeriaTwo.png" alt="Fauna del parque" /></a></div>
-											<div class="col-3 col-6-medium"><a href="#" class="image fit"><img src="images/galeriaThree.png" alt="Áreas verdes" /></a></div>
-											<div class="col-3 col-6-medium"><a href="#" class="image fit"><img src="images/galeriaFour.png" alt="Zona de juegos" /></a></div>
+											<div class="col-3 col-6-medium"><a href="#foto1" class="image fit"><img src="images/galeriaOne.png" alt="Vista del parque" /></a></div>
+											<div class="col-3 col-6-medium"><a href="#foto2" class="image fit"><img src="images/galeriaTwo.png" alt="Fauna del parque" /></a></div>
+											<div class="col-3 col-6-medium"><a href="#foto3" class="image fit"><img src="images/galeriaThree.png" alt="Áreas verdes" /></a></div>
+											<div class="col-3 col-6-medium"><a href="#foto4" class="image fit"><img src="images/galeriaFour.png" alt="Zona de juegos" /></a></div>
 										</div>
 									</div>
-									<a href="#" class="button icon fa-file-alt" style="margin-top: 1.5em;">Ver más fotos</a>
+									<a href="https://drive.google.com/drive/folders/Carpeta_de_Evidencias" target="_blank" rel="noopener" class="button icon fa-file-alt">Ver más fotos</a>
 								</section>
 							</div>
 						</div>
+					</div>
+
+					<!-- Visores (cada uno se abre con :target) -->
+					<div id="foto1" class="lightbox">
+						<a href="#gallery-wrapper" class="cerrar" aria-label="Cerrar">×</a>
+						<figure>
+							<img src="images/galeriaOne.png" alt="Vista del parque" />
+							<figcaption>Vista del parque. Foto: (autor/a), (fecha).</figcaption>
+						</figure>
+					</div>
+					<div id="foto2" class="lightbox">
+						<a href="#gallery-wrapper" class="cerrar" aria-label="Cerrar">×</a>
+						<figure>
+							<img src="images/galeriaTwo.png" alt="Fauna del parque" />
+							<figcaption>Fauna del parque. Foto: (autor/a), (fecha).</figcaption>
+						</figure>
+					</div>
+					<div id="foto3" class="lightbox">
+						<a href="#gallery-wrapper" class="cerrar" aria-label="Cerrar">×</a>
+						<figure>
+							<img src="images/galeriaThree.png" alt="Áreas verdes" />
+							<figcaption>Áreas verdes. Foto: (autor/a), (fecha).</figcaption>
+						</figure>
+					</div>
+					<div id="foto4" class="lightbox">
+						<a href="#gallery-wrapper" class="cerrar" aria-label="Cerrar">×</a>
+						<figure>
+							<img src="images/galeriaFour.png" alt="Zona de juegos" />
+							<figcaption>Zona de juegos. Foto: (autor/a), (fecha).</figcaption>
+						</figure>
 					</div>
 				</div>
 
@@ -180,10 +246,10 @@
 									<section class="widget links">
 										<h3>Actividades Clave</h3>
 										<ul class="style2">
-											<li><a href="#">Observación de aves y fauna</a></li>
-											<li><a href="#">Paseos familiares y pícnic</a></li>
-											<li><a href="#">Ferias de emprendimiento</a></li>
-											<li><a href="#">Recreación infantil</a></li>
+											<li><a href="actividades.html#fauna">Observación de aves y fauna</a></li>
+											<li><a href="actividades.html#picnic">Paseos familiares y pícnic</a></li>
+											<li><a href="actividades.html#feria">Ferias de emprendimiento</a></li>
+											<li><a href="actividades.html#juegos">Recreación infantil</a></li>
 										</ul>
 									</section>
 
@@ -206,13 +272,12 @@
 									<section class="widget contact last">
 										<h3>Créditos del Proyecto</h3>
 										<ul>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="https://github.com/Madakase/parque-forestal-guayaquil" target="_blank" rel="noopener" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 										</ul>
 										<p>ESPOL - FIEC<br />
 										Desarrollo de Aplicaciones Web y Móviles<br />
-										Israel Romero & Joan Mendoza</p>
+										Israel Romero &amp; Joan Mendoza</p>
+										<p><a href="creditos.html">Créditos, consentimiento y fuentes</a></p>
 									</section>
 
 							</div>

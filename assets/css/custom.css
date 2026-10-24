@@ -1,0 +1,47 @@
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+#banner-wrapper { background: url("../../images/lagunaBiodiversidad.png") center / cover no-repeat; }
+#banner .button.large { font-size: 1.4em; padding-right: 2.2em; }
+#cifras-wrapper { padding: 3em 0 0 0; }
+#cifras-wrapper .box { text-align: center; padding: 1.5em 1em; }
+#cifras-wrapper .box h2 { font-size: 2.5em; margin: 0 0 0.15em 0; color: #2d6a4f; }
+#cifras-wrapper .box p { margin: 0; }
+@media screen and (min-width: 737px) { #banner-wrapper { padding: 4em 0; } }
+@media screen and (max-width: 736px) {
+	#banner-wrapper { padding: 15px; }
+	#banner ul { margin-top: 1.5em; }
+	#cifras-wrapper { padding: 0 15px 1.5em 15px; }
+}
+
+@media screen and (min-width: 981px) {
+	#header-wrapper { padding: 3em 0 2em 0; }
+	#nav { position: static; margin-top: 1.5em; font-size: 0.85em; }
+	#nav ul { display: flex; flex-wrap: wrap; }
+	#nav ul li { float: none; padding-left: 0; margin-right: 0.5em; line-height: 3.5em; }
+	#nav ul li a { white-space: nowrap; padding: 0.5em 0.9em; }
+}
+
+.tabla { overflow-x: auto; margin-bottom: 2em; }
+.tabla table { margin-bottom: 0; }
+article iframe { display: block; width: 100%; border: 0; border-radius: 8px; }
+
+progress { width: 60%; height: 0.9em; vertical-align: middle; accent-color: #2d6a4f; }
+@media screen and (max-width: 736px) { progress { width: 40%; } }
+
+#main-wrapper .box { background: #f4f6f4; box-shadow: none; }
+#voces blockquote { margin-bottom: 1em; }
+#voces .box p { margin: 0; }
+
+#gallery-wrapper { background: #f4f6f4; padding: 4em 0; }
+@media screen and (max-width: 736px) { #gallery-wrapper { padding: 40px 15px; } }
+
+.lightbox { display: none; position: fixed; inset: 0; z-index: 10000; background: rgba(0, 0, 0, .85);
+	flex-direction: column; align-items: center; justify-content: center; color: #fff; }
+.lightbox:target { display: flex; }
+.lightbox figure { margin: 0; text-align: center; }
+.lightbox img { max-width: 90vw; max-height: 80vh; border-radius: 8px; }
+.lightbox figcaption { padding-top: 1em; font-size: .8em; line-height: 1.5em; }
+.lightbox .cerrar { position: absolute; top: 1rem; right: 1.5rem; color: #fff; font-size: 2rem; text-decoration: none; }
+
+.referencias p { padding-left: 2em; text-indent: -2em; }
