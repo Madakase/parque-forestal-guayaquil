@@ -153,6 +153,48 @@ tu familia a pasear y tener ese tiempo juntos que hace falta. Sí muy recreativo
 										</div>
 									</section>
 
+									<section id="opinion" class="last">
+										<h2>Comparte tu experiencia</h2>
+										<form method="get" class="formulario">
+											<label for="nombre">Nombre o seudónimo</label>
+											<input type="text" id="nombre" name="nombre" required minlength="2" maxlength="40" autocomplete="given-name">
+
+											<label for="correo">Correo electrónico (opcional)</label>
+											<input type="email" id="correo" name="correo" autocomplete="email">
+
+											<label for="edad">Edad (mayores de 18)</label>
+											<input type="number" id="edad" name="edad" min="18" max="99" required>
+
+											<label for="perfil">¿Con quién visitas el parque?</label>
+											<select id="perfil" name="perfil" required>
+												<option value="">Selecciona una opción</option>
+												<option value="solo">Solo/a</option>
+												<option value="pareja">En pareja</option>
+												<option value="familia">En familia con niños</option>
+												<option value="amigos">Con amigos</option>
+												<option value="turista">Soy turista</option>
+											</select>
+
+											<label for="calificacion">Calificación de tu experiencia</label>
+											<select id="calificacion" name="calificacion" required>
+												<option value="">Selecciona una opción</option>
+												<option value="muy-buena">Muy buena</option>
+												<option value="buena">Buena</option>
+												<option value="regular">Regular</option>
+												<option value="mala">Mala</option>
+											</select>
+
+											<label for="comentario">¿Qué mejorarías o propondrías?</label>
+											<textarea id="comentario" name="comentario" rows="4" minlength="10" maxlength="500" required></textarea>
+
+											<label class="casilla">
+												<input type="checkbox" name="acepto" required> Autorizo el uso de mi respuesta con fines académicos, de forma anónima
+											</label>
+
+											<button type="submit" class="button icon solid fa-paper-plane">Enviar</button>
+										</form>
+									</section>
+
 								</article>
 
 						</div>

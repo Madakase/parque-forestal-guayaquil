@@ -45,3 +45,20 @@ progress { width: 60%; height: 0.9em; vertical-align: middle; accent-color: #2d6
 .lightbox .cerrar { position: absolute; top: 1rem; right: 1.5rem; color: #fff; font-size: 2rem; text-decoration: none; }
 
 .referencias p { padding-left: 2em; text-indent: -2em; }
+
+/* Para formulario */
+.formulario { max-width: 640px; }
+.formulario input[type="number"] {
+	display: block; width: 100%; line-height: 3em; padding: 0 1em;
+	border-radius: 8px; border: solid 1px #d8f3dc;
+}
+.formulario select { background-color: #fff; }
+.formulario input, .formulario select, .formulario textarea { margin-bottom: 1.5em; }
+.formulario .casilla { font-weight: 300; font-size: 1em; }
+.formulario input[type="checkbox"] {
+	-webkit-appearance: auto; appearance: auto;
+	display: inline-block; margin: 0 0.4em 0 0; accent-color: #2d6a4f;
+}
+.formulario .button { margin-top: 1em; }
+
+#footer .row:first-child { position: relative; z-index: 1; } /*Arreglar footer (no se podia hacer clic en creditos)*/
